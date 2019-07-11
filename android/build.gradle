@@ -33,4 +33,5 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     compileOnly 'com.facebook.react:react-native:+'
+    implementation "androidx.appcompat:appcompat:1.0.+"
 }

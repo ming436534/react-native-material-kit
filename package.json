@@ -55,6 +55,7 @@
   "scripts": {
     "lint": "tslint -p .",
     "test": "jest",
-    "build": "lint && tsc"
+    "build": "lint && tsc",
+    "post-install": "yarn && tsc"
   }
 }
